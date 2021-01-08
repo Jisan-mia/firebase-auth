@@ -1,0 +1,39 @@
+.hero {
+	/* width: 100%; */
+	height: 100vh;
+	background: #f1f8ff;
+}
+
+.hero .nav {
+	background: rgb(255, 255, 255);
+	box-shadow: rgb(217 224 228 / 86%) 0px 16px 32px 0px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hero .nav_list {
+	padding: 15px 20px;
+}
+.hero .nav h2 {
+	color: #000;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.hero button {
+	width: 100%;
+	font-size: 16px;
+	padding: 10px 28px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #4a86fda8;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+.hero button:hover {
+	background-color: #4a86fde8;
+}

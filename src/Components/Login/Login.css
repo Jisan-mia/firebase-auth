@@ -1,0 +1,82 @@
+.login_page {
+	min-height: 100vh;
+	padding: 0 20px;
+	background: #f1f8ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_container {
+	font-family: "Montserrat", sans-serif;
+	max-width: 400px;
+	width: 100%;
+	min-height: 480px;
+	background: rgb(255, 255, 255);
+	box-shadow: rgb(240, 244, 247) 0px 16px 32px 0px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form {
+	width: 90%;
+}
+form .form-group {
+	margin-bottom: 10px;
+}
+form .form-group i {
+	font-size: 13px;
+	color: red;
+}
+form .form-group span {
+	display: block;
+	padding: 0.3em 1em;
+	background-color: #f1f8ffc0;
+	border-radius: 0.25em;
+	box-shadow: 0 1px 0 rgb(154 179 231 / 30%);
+	margin: 0.1em 0 0.1em;
+}
+form .form-group input {
+	background: none;
+	border: none;
+	width: 100%;
+	height: 2em;
+	line-height: 2em;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: rgb(136, 136, 136);
+	outline: none;
+}
+
+form .signUpBtn {
+	width: 100%;
+	font-size: 16px;
+	padding: 15px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 2px;
+	background-color: #4a86fda8;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+form .signUpBtn:hover {
+	background-color: #4a86fde8;
+}
+
+form .signUp_signIn {
+	text-align: right;
+}
+form .signUp_signIn p {
+	font-size: 0.9rem;
+}
+form .signUp_signIn p span {
+	color: #677af3;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+form .signUp_signIn p span:hover {
+	color: #041dc4;
+}
